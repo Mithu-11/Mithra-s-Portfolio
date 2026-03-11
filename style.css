@@ -6,7 +6,6 @@ body{
     color:#333;
 }
 
-
 header{
 background:linear-gradient(135deg,#2563eb,#06b6d4);
 color:white;
@@ -125,8 +124,6 @@ background:#1d4ed8;
 transform:scale(1.05);
 }
 
-
-
 .project{
 background:white;
 padding:25px;
@@ -156,11 +153,10 @@ background:#1d4ed8;
 
 
 #contact p{
+color:#2563eb;    
 text-align:center;
 font-size:18px;
 }
-
-
 
 .social-links{
 text-align:center;
@@ -187,8 +183,54 @@ background:#1d4ed8;
 transform:scale(1.05);
 }
 
-
 html{
 scroll-behavior:smooth;
 
 }
+@media (max-width:768px){
+
+header{
+padding:20px;
+}
+
+.header-container{
+flex-direction:column;
+text-align:center;
+gap:15px;
+}
+
+.nav-links{
+flex-direction:column;
+gap:12px;
+padding:0;
+}
+
+.nav-links a{
+font-size:16px;
+}
+
+.about-container{
+flex-direction:column;
+}
+
+.about-container img{
+width:140px;
+height:140px;
+}
+
+section{
+padding:40px 15px;
+}
+
+.project{
+padding:20px;
+}
+
+.floating-resume{
+right:15px;
+bottom:20px;
+padding:10px 15px;
+font-size:14px;
+}
+}
+
